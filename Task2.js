@@ -28,7 +28,7 @@ function printCountryFlags(resultParam){
 
 
 const API_URL = "https://restcountries.com/v2/all";
-let resultObject = makeAjaxCallAndPrintInfo(API_URL, printCountryFlags);
+makeAjaxCallAndPrintInfo(API_URL, printCountryFlags);
 
 
 
